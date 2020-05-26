@@ -1,0 +1,109 @@
+<h3 class="login-heading mb-4">Add a gift recipient</h3>
+<form method="POST" action="/addPerson">
+  <div id="app">
+    <div class="form-label-group">
+      <input
+        type="text"
+        id="inputPersonName"
+        class="form-control"
+        placeholder="Person Name e.g. John J."
+        name="personName"
+        required
+        autofocus
+      />
+      <label for="inputPersonName">Recipient Name</label>
+    </div>
+
+    <div class="form-label-group">
+      <input
+        type="date"
+        id="inputDate"
+        class="form-control"
+        placeholder="Birthday e.g. 10/18/1996"
+        name="birthday"
+        required
+        autofocus
+      />
+      <label for="inputDate">Birthday</label>
+    </div>
+
+    
+<div>
+    <h3 class="login-heading mb-4">Gender:</h3>
+    <input class="btn btn-default" type="checkbox" value="m"  name="gender">
+    <label  for="gender"
+        >Male </label
+    >
+    <input class="btn btn-default" type="checkbox" value="f"  name="gender">
+    <label for="gender"
+        >Female </label
+    >
+</div>
+
+    <h3 class="login-heading mb-4">Relationship:</h3>
+    <input class="btn btn-default" type="button" value="Spouse"  name="relationship">
+    <input class="btn btn-default" type="button" value="Mother"  name="relationship">
+    <input class="btn btn-default" type="button" value="Father"  name="relationship">
+    <input class="btn btn-default" type="button" value="Friend"  name="relationship">
+    </div>
+
+<div>
+    <h3 class="login-heading mb-4">What do they like?</h3>
+    <div>    
+      <input class="btn btn-default" type="checkbox" value="1"  name="entertainment">
+      <label  for="entertainment"
+      >Games, Books, and Entertainment</label
+    >
+    </div>
+    <div>    
+      <input class="btn btn-default" type="checkbox" value="1"  name="personalCare">
+      <label  for="personalCare"
+      >Clothing, Accessories and Personal Care</label
+    >
+    </div>    
+    <div>    
+      <input class="btn btn-default" type="checkbox" value="1"  name="sport">
+      <label  for="sport"
+      >Sports, Fitness and Outdoors</label
+    >
+    </div>    
+    <div>    
+      <input class="btn btn-default" type="checkbox" value="1"  name="craft">
+      <label for="craft"
+      >Photo, Crafts, and Personalized </label
+  >
+    </div>    
+    <!-- <div class="custom-control custom-checkbox mb-3">
+      <input type="checkbox" class="custom-control-input" id="entertainment"  name="entertainment"/>
+      <label class="custom-control-label" for="entertainment"
+        >Games, Books, and Entertainment</label
+      >
+    </div>
+    <div class="custom-control custom-checkbox mb-3">
+        <input type="checkbox" class="custom-control-input" id="personalCare"  name="personalCare"/>
+        <label class="custom-control-label" for="personalCare"
+          >Clothing, Accessories and Personal Care</label
+        >
+    </div>
+    <div class="custom-control custom-checkbox mb-3">
+        <input type="checkbox" class="custom-control-input" id="sport"  name="sport"/>
+        <label class="custom-control-label" for="sport"
+          >Sports, Fitness and Outdoors</label
+        >
+    </div>
+    <div class="custom-control custom-checkbox mb-3">
+        <input type="checkbox" class="custom-control-input" id="craft"  name="craft"/>
+        <label class="custom-control-label" for="craft"
+        >Photo, Crafts, and Personalized </label
+    >
+    </div> -->
+</div>
+    <button
+      class="btn btn-lg btn-primary btn-block btn-login text-uppercase font-weight-bold mb-2"
+      type="submit"
+    >
+      Save
+    </button>
+  </div>
+</form>
+<!-- <script type="module" src="/assets/js/pages/signup.module.js"></script> -->
